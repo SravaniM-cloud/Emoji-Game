@@ -1,0 +1,26 @@
+/* Write your code here. */
+.emojis-whole-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.emoji-game-bg-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #6a59ff, #fbc7d4);
+  color: white;
+}
+.display-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .emojis-whole-list-container {
+    max-width: 60%;
+  }
+}
